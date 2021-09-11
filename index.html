@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+        body{
+            font-family: 'DM Sans', sans-serif;
+            text-align: center;
+            color: var(--primarycolor);
+        }
+        :root{
+      --primarycolor:#818CF8
+             }
+        #check-button{
+         margin-top: 2rem;
+         font-size: x-large;
+       border-radius: 0.5rem;
+       border: solid var(--primarycolor);
+       background: transparent;
+       margin-left: 5.5rem;
+       cursor: pointer;
+     }
+     #label1{
+       font-size: 1.8rem;
+       margin-left: 2rem;
+     }
+     #label3{
+       font-size: 1.8rem;
+     }
+     #label2{
+       font-size: 1.8rem;
+       margin-left: 1rem;
+     }
+     #stock-initial{
+        font-size: x-large;
+       border-radius: 0.5rem;
+       border: solid var(--primarycolor);
+       margin-top: 2rem;
+       text-align: center;
+       margin-bottom: 2rem;
+     }
+     #stock-qt{
+        font-size: x-large;
+       border-radius: 0.5rem;
+       border: solid var(--primarycolor);
+       margin-top: 2rem;
+       text-align: center;
+       margin-right: 8.7rem;
+       margin-bottom: 2rem;
+     }
+     #stock-final{
+        font-size: x-large;
+       border-radius: 0.5rem;
+       border: solid var(--primarycolor);
+       margin-top: 2rem;
+       text-align: center;
+       margin-right: 6rem;
+       margin-bottom: 1rem;
+     }
+     #heading{
+         font-size: 2.34rem;
+     }
+     #output-box{
+         font-size: xx-large;
+         
+     }
+     #line2{
+         margin-top: 4rem;
+     }
+     #footer{
+         font-size: x-large;
+     }
+    </style>
+</head>
+<body>
+    <h2 id="heading">Stock Profit and Loss Calculator</h2>
+    <hr>
+    <label id="label1">Enter Initial Price :</label>
+    <input id="stock-initial" placeholder="Enter initial price of stock"/>
+    <br>
+    <label id="label2">Enter Quantity of your stock :</label>
+    <input id="stock-qt" placeholder="Enter quantity of stock"/>
+    <br>
+    <label id="label3">Enter current Market price :</label>
+    <input id="stock-final" placeholder="Enter market price of stock"/>
+    <br>
+    <button id="check-button">check</button>
+    <br>
+    <p id="output-box"></p>
+    <hr id="line2">
+    <footer id="footer">
+        <h4>ABOUT</h4>
+        <div>Stock profit and loss calculator is an app which helps you find out about the profit or loss you have made since the purchase</div>
+    </footer>
+
+
+    <script src="app.js" type="text/javascript">
+    </script>
+</body>
+</html>
